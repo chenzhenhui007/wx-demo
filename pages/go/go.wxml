@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="container">
+
+<view class='sumT bor' > <text >{{h}}:{{m}}:{{s}}</text> </view>
+
+<view class='end'><button bindtap="end">结束骑行</button> </view>
+
+<view class='back'><button bindtap="back">返回地图</button> </view>
+
+
+</view>

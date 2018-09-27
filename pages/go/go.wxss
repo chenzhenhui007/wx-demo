@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537968868130&di=4299af815480aed9933807e5d2c0ec9c&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F151118%2F258094-15111PU23452.jpg);
+  background-size: cover; 
+}
+.sumT{
+    width: 400rpx;
+  height: 400rpx;
+  
+}
+.bor{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid cornsilk;
+  border-radius: 50%;
+  background-color: cornsilk;
+  width: 400rpx;
+  height: 400rpx;
+  margin-top: 140rpx;
+  font-size: 22px;
+  opacity: 0.88
+}.end{
+  flex: 6;
+  margin-top: 300rpx;
+   width: 200rpx;
+   height: 200rpx;
+}.back{
+  flex: 4;
+   width: 200rpx;
+   height: 200rpx;
+   margin-top: -100rpx;
+    
+}.back button{
+   font-size: 13px;  
+   font-weight: blog;
+}.end button{
+   font-size: 13px;  
+   font-weight: blog;
+}
